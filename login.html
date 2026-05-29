@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ClickMart Login</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#ff9800,#ffb74d);
+}
+
+.login-box{
+    background:#fff;
+    padding:40px;
+    border-radius:15px;
+    width:350px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
+
+.login-box h1{
+    margin-bottom:20px;
+    color:#333;
+}
+
+.input-box{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.login-btn{
+    width:100%;
+    padding:12px;
+    background:#ff9800;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.login-btn:hover{
+    background:#e68900;
+}
+
+.register-link{
+    margin-top:15px;
+    display:block;
+    text-decoration:none;
+    color:#555;
+}
+</style>
+</head>
+<body>
+
+<div class="login-box">
+    <h1>ClickMart Login</h1>
+
+    <form>
+        <input type="email" placeholder="Email" class="input-box" required>
+
+        <input type="password" placeholder="Password" class="input-box" required>
+
+        <button type="submit" class="login-btn">
+            Login
+        </button>
+    </form>
+
+    <a href="registration.html" class="register-link">
+        Don't have an account? Register
+    </a>
+</div>
+
+</body>
+</html>
